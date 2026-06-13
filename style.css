@@ -322,14 +322,16 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 /* ===== HERO2 (new homepage hero) ===== */
 .hero2 {
   display: flex; justify-content: center;
-  padding: 0 clamp(2rem, 6vw, 5rem);
+  padding: 0;
   min-height: calc(100vh - var(--nav-h));
 }
 .hero2-inner {
-  display: grid; grid-template-columns: 1fr 1fr;
+  display: grid; grid-template-columns: 1fr 1.4fr;
   align-items: center;
-  padding: clamp(3rem, 8vw, 6rem) 0;
+  padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
   gap: 3rem;
+  width: 100%;
+  max-width: 1800px;
 }
 .hero2-text { max-width: 520px; }
 .hero2-text h1 {
@@ -343,7 +345,8 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   display: flex; align-items: center; justify-content: center;
 }
 .hero2-logo img {
-  width: min(750px, 90%);
+  width: 100%;
+  max-width: 750px;
 }
 
 /* ===== ABOUT ===== */
