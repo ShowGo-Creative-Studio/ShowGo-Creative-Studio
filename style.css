@@ -343,7 +343,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   display: flex; align-items: center; justify-content: center;
 }
 .hero2-logo img {
-  width: min(600px, 90%);
+  width: min(750px, 90%);
 }
 
 /* ===== ABOUT ===== */
@@ -512,7 +512,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 @media (max-width: 900px) {
   .hero2-inner { grid-template-columns: 1fr; padding-bottom: 3rem; }
   .hero2-logo { order: -1; }
-  .hero2-logo img { width: min(280px, 70%); }
+  .hero2-logo img { width: min(420px, 80%); }
   .about-grid { grid-template-columns: 1fr; }
   .about-photo { max-width: 100%; }
   .services-grid2 { grid-template-columns: 1fr; }
