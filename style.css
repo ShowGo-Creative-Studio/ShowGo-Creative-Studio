@@ -343,7 +343,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   display: flex; align-items: center; justify-content: center;
 }
 .hero2-logo img {
-  width: min(460px, 90%);
+  width: min(600px, 90%);
 }
 
 /* ===== ABOUT ===== */
