@@ -365,15 +365,35 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 }
 .about-photo img { width: 100%; display: block; }
 .section-eyebrow {
-  font-family: var(--font-display); font-size: 1.6rem;
-  color: var(--ink); margin-bottom: 0.25rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  color: var(--ink); margin-bottom: 0.4rem;
+  line-height: 1.15;
 }
-.about-sub { font-size: 1rem; color: var(--ink-light); margin-bottom: 1.5rem; }
+.about-sub {
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  color: var(--accent); margin-bottom: 1.75rem;
+  font-weight: 600; letter-spacing: 0.02em;
+}
 .about-text p {
-  color: var(--ink-light); line-height: 1.85; margin-bottom: 1rem;
+  color: var(--ink-light); line-height: 1.85; margin-bottom: 1.1rem;
   font-size: 0.97rem;
 }
-.about-text p strong { color: var(--ink); font-style: italic; }
+.about-text p.lead {
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  color: var(--ink); line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+.about-text p.section-eyebrow {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4vw, 3.2rem) !important;
+  color: var(--ink); margin-bottom: 0.4rem;
+  line-height: 1.15;
+}
+.about-text p strong {
+  color: var(--accent); font-style: italic;
+  font-size: 1.05em;
+}
 
 /* ===== SERVICES GRID 2 ===== */
 .services-section2 {
