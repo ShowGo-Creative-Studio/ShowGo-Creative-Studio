@@ -430,17 +430,28 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 }
 .clients2-grid {
   display: flex; flex-wrap: wrap;
-  justify-content: center; gap: 1rem;
+  justify-content: center; align-items: center;
+  gap: 2rem 3.5rem;
 }
-.client-badge {
-  font-size: 0.82rem; font-weight: 700; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--ink-light);
-  border: 1.5px solid var(--border); border-radius: 40px;
-  padding: 0.55rem 1.4rem;
-  transition: border-color 0.2s, color 0.2s;
-  cursor: default;
+.client-logo-wrap {
+  display: flex; align-items: center; justify-content: center;
+  height: 60px;
+  filter: grayscale(100%) opacity(0.55);
+  transition: filter 0.25s;
 }
-.client-badge:hover { border-color: var(--accent); color: var(--accent); }
+.client-logo-wrap:hover { filter: grayscale(0%) opacity(1); }
+.client-logo-text {
+  font-family: 'Futura', 'Arial Black', sans-serif;
+  font-size: 1.4rem; font-weight: 900;
+  letter-spacing: 0.12em; color: #555;
+}
+.client-logo {
+  max-height: 60px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  display: block;
+}
 
 /* ===== TESTIMONIALS ===== */
 .testimonials {
