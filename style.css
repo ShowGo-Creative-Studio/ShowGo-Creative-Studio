@@ -436,8 +436,6 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 .client-logo-wrap {
   display: flex; align-items: center; justify-content: center;
   height: 60px;
-  opacity: 0.75;
-  transition: opacity 0.25s;
 }
 .client-logo-wrap:hover { opacity: 1; }
 .client-logo-text {
