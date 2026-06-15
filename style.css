@@ -436,10 +436,10 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 .client-logo-wrap {
   display: flex; align-items: center; justify-content: center;
   height: 60px;
-  filter: grayscale(100%) opacity(0.55);
-  transition: filter 0.25s;
+  opacity: 0.75;
+  transition: opacity 0.25s;
 }
-.client-logo-wrap:hover { filter: grayscale(0%) opacity(1); }
+.client-logo-wrap:hover { opacity: 1; }
 .client-logo-text {
   font-family: 'Futura', 'Arial Black', sans-serif;
   font-size: 1.4rem; font-weight: 900;
