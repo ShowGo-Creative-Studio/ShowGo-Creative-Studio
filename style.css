@@ -364,12 +364,6 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   max-width: 360px;
 }
 .about-photo img { width: 100%; display: block; }
-.section-eyebrow {
-  font-family: var(--font-display);
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
-  color: var(--ink); margin-bottom: 0.4rem;
-  line-height: 1.15;
-}
 .about-sub {
   font-size: clamp(1rem, 1.8vw, 1.25rem);
   color: var(--accent); margin-bottom: 1.75rem;
@@ -377,22 +371,17 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 }
 .about-text p {
   color: var(--ink-light); line-height: 1.85; margin-bottom: 1.1rem;
-  font-size: 0.97rem;
-}
-.about-text p.lead {
-  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
-  color: var(--ink); line-height: 1.8;
-  margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 .about-text p.section-eyebrow {
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 4vw, 3.2rem) !important;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
   color: var(--ink); margin-bottom: 0.4rem;
   line-height: 1.15;
 }
 .about-text p strong {
   color: var(--accent); font-style: italic;
-  font-size: 1.05em;
+  font-size: 1em;
 }
 
 /* ===== SERVICES GRID 2 ===== */
