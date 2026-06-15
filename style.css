@@ -452,6 +452,10 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   object-fit: contain;
   display: block;
 }
+.client-logo[alt="Nike"] {
+  max-height: 90px;
+  max-width: 130px;
+}
 
 /* ===== TESTIMONIALS ===== */
 .testimonials {
