@@ -435,9 +435,31 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 }
 .client-logo-wrap {
   display: flex; align-items: center; justify-content: center;
-  height: 60px;
+  height: 80px;
+  position: relative;
+  cursor: default;
 }
-.client-logo-wrap:hover { opacity: 1; }
+.client-logo-wrap .client-hover-name {
+  position: absolute;
+  inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.2rem; font-weight: 700;
+  color: var(--ink);
+  background: rgba(255,255,255,0.85);
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.client-logo-wrap img,
+.client-logo-text {
+  transition: opacity 0.25s;
+}
+.client-logo-wrap:hover img,
+.client-logo-wrap:hover .client-logo-text { opacity: 0.15; }
+.client-logo-wrap:hover .client-hover-name { opacity: 1; }
 .client-logo-text {
   font-family: 'Futura', 'Arial Black', sans-serif;
   font-size: 1.4rem; font-weight: 900;
