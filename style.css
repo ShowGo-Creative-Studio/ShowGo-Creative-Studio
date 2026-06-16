@@ -476,8 +476,11 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   max-height: 55px;
   max-width: 180px;
 }
-.client-logo[alt="Red Bull"],
-.client-logo[alt="Bosch"],
+.client-logo[alt="Red Bull"] {
+  max-height: 75px;
+  max-width: 200px;
+  border-radius: 8px;
+}
 .client-logo[alt="Johnson & Johnson"],
 .client-logo[alt="Streamer Square"] {
   max-height: 75px;
