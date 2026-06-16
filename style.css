@@ -69,7 +69,7 @@ nav {
 .lang-toggle a {
   font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em;
   padding: 0.3rem 0.65rem; color: var(--ink-light) !important;
-  background: transparent; border-radius: 0 !important;
+ border-radius: 0 !important;
   transition: background 0.2s, color 0.2s;
   text-transform: uppercase;
 }
@@ -324,7 +324,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   display: flex; justify-content: center;
   padding: 0;
   min-height: calc(100vh - var(--nav-h));
-  background: transparent;
+
 }
 .hero2-inner {
   display: grid; grid-template-columns: 1fr 1.4fr;
