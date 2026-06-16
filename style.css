@@ -324,6 +324,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   display: flex; justify-content: center;
   padding: 0;
   min-height: calc(100vh - var(--nav-h));
+  background: transparent;
 }
 .hero2-inner {
   display: grid; grid-template-columns: 1fr 1.4fr;
