@@ -436,7 +436,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   display: flex;
   flex-wrap: nowrap;
   width: max-content;
-  animation: marquee 30s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 .clients2-grid:hover { animation-play-state: paused; }
 @keyframes marquee {
