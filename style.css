@@ -161,7 +161,7 @@ main { padding-top: var(--nav-h); }
 }
 
 /* ===== CLIENTS ===== */
-.clients { padding: 4rem clamp(1.5rem, 6vw, 5rem); border-top: 1px solid var(--border); }
+.clients { padding: 4rem clamp(1.5rem, 6vw, 5rem); border-top: none; }
 .clients-label {
   font-size: 0.72rem; font-weight: 700; letter-spacing: 0.16em;
   text-transform: uppercase; color: var(--ink-light);
@@ -278,7 +278,7 @@ main { padding-top: var(--nav-h); }
 /* ===== FOOTER ===== */
 footer {
   padding: 3rem clamp(1.5rem, 6vw, 5rem);
-  border-top: 1px solid var(--border);
+  border-top: none;
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 1rem;
 }
@@ -352,7 +352,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 /* ===== ABOUT ===== */
 .about-section {
   padding: clamp(4rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
-  border-top: 1px solid var(--border);
+  border-top: none;
 }
 .about-grid {
   display: grid; grid-template-columns: 1fr 1.5fr;
@@ -508,7 +508,7 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
 .testimonials {
   background: var(--bg-soft);
   padding: clamp(4rem, 8vw, 5.5rem) clamp(2rem, 6vw, 5rem);
-  border-top: 1px solid var(--border);
+  border-top: none;
 }
 .testimonials-inner { text-align: center; }
 .testimonials h2 {
