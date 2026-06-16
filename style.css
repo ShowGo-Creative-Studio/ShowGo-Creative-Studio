@@ -451,8 +451,19 @@ footer p { font-size: 0.82rem; color: var(--ink-light); }
   display: block;
 }
 .client-logo[alt="Nike"] {
-  max-height: 90px;
-  max-width: 130px;
+  max-height: 55px;
+  max-width: 180px;
+}
+.client-logo[alt="Red Bull"],
+.client-logo[alt="Bosch"],
+.client-logo[alt="Johnson & Johnson"],
+.client-logo[alt="Streamer Square"] {
+  max-height: 75px;
+  max-width: 200px;
+}
+.client-logo[alt="US Army"] {
+  max-height: 80px;
+  max-width: 80px;
 }
 
 /* ===== TESTIMONIALS ===== */
